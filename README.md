@@ -1,7 +1,7 @@
 # README: ACPI MADT Override Fix for MiTAC PH12LI (Intel i7-4770TE)
 
 ## NOTICE
-This issue is possibly resolved upon applying [D7340A06 BIOS update](https://github.com/michalkrupa/rhel-kernel-bugfix/blob/main/D7340A06.zip)
+[Update] This issue is resolved upon applying [D7340A06 BIOS update](https://github.com/michalkrupa/rhel-kernel-bugfix/blob/main/D7340A06.zip), but may affect older systems with similar architectures.
 
 ## 🛠️ Problem Summary
 

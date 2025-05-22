@@ -36,7 +36,7 @@ sudo cp apic.aml /etc/acpi_override/apic.aml
 
 ### 2. Rebuild the initramfs (RHEL/CentOS)
 ```bash
-sudo dracut -f --add "acpi" /boot/initramfs-$(uname -r).img $(uname -r)
+sudo dracut -f
 ```
 
 ### 3. Apply required GRUB kernel parameters

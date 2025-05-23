@@ -120,7 +120,7 @@ After=multi-user.target
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash -c 'echo 3210000 > /sys/devices/system/cpu/cpu*/cpufreq/scaling_max_freq'
+ExecStart=find /sys/devices/system/cpu -name "cpu*" -path "*/cpufreq/scaling_max_freq" -exec sh -c 'echo 3210000 > {}' \;
 RemainAfterExit=yes
 
 [Install]
